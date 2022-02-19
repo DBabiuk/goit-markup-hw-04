@@ -133,6 +133,8 @@ img {
 .buttons > li > button:focus {
   color: white;
   background-color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .buttons > li > button {
   color: var(--primary-black);
@@ -185,6 +187,8 @@ footer {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 .navigation-footer {
   font-weight: normal;
@@ -265,13 +269,14 @@ footer {
   background-repeat: no-repeat;
   background-position: right calc(50%) top calc(50%);
   margin: 0 auto;
+  width: 1600px;
 }
-main,
+ /* main,
 header,
 footer {
   width: 1600px;
   margin: 0 auto;
-}
+} */
 .regular-clients{
   font-family: Roboto;
 font-style: normal;
@@ -419,8 +424,9 @@ header {
 }
 .portfolio:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .project-name {
   margin-bottom: 4px;
 }
@@ -440,6 +446,10 @@ header {
 .container-header {
   display: flex;
   align-items: center;
+}
+#workers{
+  width: 1600px;
+  margin: 0 auto;
 }
 .contacts-header > li {
   margin-right: 50px;
@@ -508,7 +518,8 @@ header {
   height: 44px;
   display: block;
   border-radius: 50%;
-  padding: 12px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .worker-icons-background:hover {
   background-color: var(--brand-color);
@@ -556,6 +567,13 @@ header {
   height: 60px;
   padding-top: 16px;
 } */
+.client-wrapper-href{
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer-icons {
   display: flex;
   flex-direction: column;
@@ -568,15 +586,23 @@ header {
   height: 44px;
   display: block;
   border-radius: 50%;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 }
 .footer-svg-container:hover {
   background-color: var(--brand-color);
 }
-.footer-svg-container {
+/* .footer-svg-container {
   margin-right: 10px;
+} */
+.footer-icons-container li{
+  margin-right: 10px;
+}
+.footer-icons-container li:last-child{
+  margin-right: 0px;
 }
 /* .footer-svg-container:last-child{
 margin-right: 0px;
