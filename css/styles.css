@@ -422,11 +422,14 @@ header {
   padding: 24px 20px;
   border-top: 0;
 }
-.portfolio:hover {
+.portfolio a:hover,
+.portfolio a:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
+.portfolio a {
+  display: block;
+}
 .project-name {
   margin-bottom: 4px;
 }
