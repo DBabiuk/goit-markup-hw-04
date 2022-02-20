@@ -450,10 +450,10 @@ header {
   display: flex;
   align-items: center;
 }
-#workers{
+/* #workers{
   width: 1600px;
   margin: 0 auto;
-}
+} */
 .contacts-header > li {
   margin-right: 50px;
 }
@@ -510,7 +510,7 @@ header {
 }
 .worker-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 16px;
 }
 .worker-icons svg {
@@ -522,7 +522,8 @@ header {
   display: block;
   border-radius: 50%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 .worker-icons-background:hover {
   background-color: var(--brand-color);
