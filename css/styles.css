@@ -531,9 +531,9 @@ header {
 .worker-icons-background:hover svg {
   fill: #ffffff;
 }
-/* .worker-icons li {
+.worker-icons li {
   margin-right: 10px;
-} */
+}
 .clients-cards {
   display: flex;
   margin-top: 50px;
